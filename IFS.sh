@@ -6,6 +6,7 @@ names=(
   "Anderson da Silva"
 )
 
+echo "testing"
 echo "With default IFS value..."
 for name in ${names[@]}; do
   echo "$name"
